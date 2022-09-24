@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: hsl(216, 50%, 16%);
+  
+ 
+}
+
+.container .nft_img img {
+  height: 350px;
+  padding: 15px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.container .nft_img img:active {
+  background-image: ;
+}
+
+.container .content .txt h2 {
+    color: hsl(0, 0%, 100%);
+ 
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.container .content .txt p {color: hsl(215, 51%, 70%);
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+
+
+.container .content .price_timer ul {padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    padding-top: 25px;}
+
+    .container .content .avatar 
+{
+    display: flex;
+    align-items: center;
+}
+
+.container .content .avatar img {
+    width: 48px;
+    height: 48px;
+    padding-left: 15px;
+    border-radius: 1px white solid ;
+    padding-right: 10px;
+
+}
+.container .content .avatar .name h6 {
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    font-size: 16px;
+}
